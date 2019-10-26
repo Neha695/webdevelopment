@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>events</title>
+<script src='js1.js'></script>
+</head>
+<body>
+    <p onclick="myFunction(this,event)">click to change color</p>
+    <div id="parent" data-id="sjcit">
+      parent
+      <div id="child1">
+          child1
+      </div>
+      <div id="child2" onclick="myFunction(this)">
+          child2
+      </div>
+      <input type="text" oninput="myFunction()">
+      <div id='changed'>
+    
+      </div>
+     </div>
+</body>
+</html>
